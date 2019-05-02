@@ -10,3 +10,6 @@ grafo = {"a":["ac", "ca"],
 grafo["j"] = ["ej", "dj"]
 
 print(grafo)
+print( )
+del(grafo["e"])
+print(grafo)
