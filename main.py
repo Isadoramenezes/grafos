@@ -1,15 +1,22 @@
-print("Iniciando em python");
+from grafo import Grafao
 
-grafo = {"a":["ac", "ca"],
+
+#Inicializando o grafo 
+teste = {"a":["ac", "ca"],
 "b":["cb", "bc", "be", "eb"],
 "c":["ce", "ec", "cd", "dc", "ca", "bc", "cb"],
 "d":["cd", "dc"],
 "e":["eb", "be", "ce", "ec"],
 "f":[]}
 
-grafo["j"] = ["ej", "dj"]
+#Adicionando um vértice
+teste["j"] = ["ej", "dj"]
+print(teste)
 
-print(grafo)
 print( )
-del(grafo["e"])
-print(grafo)
+
+#Deletando um nó
+del(teste["e"])
+print(teste)
+
+
