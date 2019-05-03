@@ -1,6 +1,3 @@
-from grafo import Grafao
-
-
 #Inicializando o grafo 
 teste = {"a":["ac", "ca"],
 "b":["cb", "bc", "be", "eb"],
@@ -19,4 +16,9 @@ print( )
 del(teste["e"])
 print(teste)
 
+class Grafo:
+    def listar(self, ngf):
+        for x in ngf:
+            print(ngf[x])
 
+Grafo.listar(teste, ngf)
